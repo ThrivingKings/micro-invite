@@ -1,19 +1,15 @@
-Invitation micro-service
-==
+# Invitation micro-service
 Super simple, super small, super duper.
 
-Assumptions being made
-===
+## Assumptions being made
 * You have a rethink database running locally
 * You have an `invitations` table in that database
 * You have a secondary index for `hash` on that table
 
-Using
-===
+## Using
 `yarn install && yarn start`
 
-API
-===
+## API
 Creating invitations
 ```
 POST /create -d '{"email":"myname@hello.net"}'

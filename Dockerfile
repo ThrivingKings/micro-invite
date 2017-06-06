@@ -4,4 +4,4 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 ADD . /usr/src/app
 RUN npm install
-CMD ["micro -p 80"]
+CMD ["npm", "start"]
